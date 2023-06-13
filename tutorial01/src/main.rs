@@ -38,7 +38,7 @@ fn main() {
     println!("x: {}\n", x);
 
     // Compound types
-    let x: (i32, f64, u8) = (500, 6.4, 1); // Tuple
+    let x: (i32, f64, u8) = (500, 6.4, 1); // Tuple, cant be uninitialized possible? similar to arrays
     println!("1: {}, 2: {}, 3: {}\n", x.0, x.1, x.2);
 
     let x: [i32; 3] = [1, 2, 3]; // Array, cant be uninitialized and has a fixed length,
